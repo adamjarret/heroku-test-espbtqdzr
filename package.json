@@ -1,0 +1,26 @@
+{
+  "name": "heroku-test-espbtqdzr",
+  "version": "1.0.0",
+  "description": "Sandbox for testing Heroku deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamjarret/heroku-test-espbtqdzr.git"
+  },
+  "author": "Adam Jarret <adam@atj.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamjarret/heroku-test-espbtqdzr/issues"
+  },
+  "homepage": "https://github.com/adamjarret/heroku-test-espbtqdzr#readme",
+  "dependencies": {
+    "shortid": "^2.2.14"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "heroku-test-espbtqdzr",
+  "description": "Sandbox for testing Heroku deployment",
+  "website": "https://github.com/adamjarret/heroku-test-espbtqdzr#readme",
+  "repository": "https://github.com/adamjarret/heroku-test-espbtqdzr",
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ]
+}
